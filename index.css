@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d7/Horlo%C4%9Do_001.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #doit{
+    position: absolute;
+    left: 240px;
+    top: 242px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  #hour{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 100px;
+    width: 7px;
+    top: 152px;
+    left: 245px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+    
+  }
+  #min{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 140px;
+    width: 5px;
+    top: 112px;
+    left: 248px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+  }
+  #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 190px;
+    width: 2px;
+    top: 62px;
+    left: 249px;
+    opacity: 0.8;
+    transform-origin:bottom;
+  }
+  #date{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px black solid;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    top: 320px;
+    left: 235px;
+  }
